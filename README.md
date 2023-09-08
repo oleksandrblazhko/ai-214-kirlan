@@ -13,4 +13,4 @@
 
 # Одеса-2023
 
-!(https://github.com/oleksandrblazhko/ai-214-kirlan/edit/ai-214-kirlan_with_laboratory_work_1/README.md)
+![](https://github.com/oleksandrblazhko/ai-214-kirlan/edit/ai-214-kirlan_with_laboratory_work_1/README.md)
