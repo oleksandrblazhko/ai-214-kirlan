@@ -12,5 +12,3 @@
 - manager, доцент кафедри ІС, Блажко О.А.
 
 # Одеса-2023
-
-![mindmap](https://github.com/oleksandrblazhko/ai-214-kirlan/edit/ai-214-kirlan_with_laboratory_work_1/kirlan-mindmap.jpg)
