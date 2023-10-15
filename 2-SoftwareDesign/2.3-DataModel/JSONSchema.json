@@ -1,0 +1,95 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "$id": "https://example.com/employee.schema.json",
+    "title": "Record of employee",
+    "description": "This document records the details of an employee",
+    "type": "object",
+    "properties": {
+        "PP": {
+            "type": "object",
+            "properties": {
+                "1": {
+                    "type": "object",
+                    "properties": {
+                        "users": {
+                            "description": "List of users",
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "analysis process": {
+            "type": "object",
+            "properties": {
+                "1": {
+                    "type": "object",
+                    "properties": {
+                        "params": {
+                            "description": "Analysis parameters",
+                            "type": "string"
+                        },
+                        "date": {
+                            "description": "Date of analysis",
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "report": {
+            "type": "object",
+            "properties": {
+                "1": {
+                    "type": "object",
+                    "properties": {
+                        "data": {
+                            "description": "Type of report data",
+                            "type": "string"
+                        },
+                        "diagramparams": {
+                            "description": "Parameters for diagrams",
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "support packet forming": {
+            "type": "object",
+            "properties": {
+                "1": {
+                    "type": "object",
+                    "properties": {
+                        "params": {
+                            "description": "Support packet forming parameters",
+                            "type": "string"
+                        },
+                        "date": {
+                            "description": "Date of support packet forming",
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "support packet": {
+            "type": "object",
+            "properties": {
+                "1": {
+                    "type": "object",
+                    "properties": {
+                        "indtructions": {
+                            "description": "Instructions for support packet",
+                            "type": "string"
+                        },
+                        "documentlayout": {
+                            "description": "Document layout details",
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
