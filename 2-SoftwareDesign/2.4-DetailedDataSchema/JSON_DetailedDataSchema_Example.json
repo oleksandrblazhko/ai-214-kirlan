@@ -41,7 +41,7 @@
                 "items": [
                   {
                       "type": "string",
-                      "pattern":"^[\w\s-]+$"
+                      "pattern":"^[\\w\\s-]+$"
                   }
                 ]
               },
@@ -72,7 +72,7 @@
                 "items": [
                   {
                     "type": "string",
-                    "pattern": "^[A-Za-z0-9_\-]+=[A-Za-z0-9_\-]+(,[A-Za-z0-9_\-]+=[A-Za-z0-9_\-]+)*$"
+                    "pattern": "^[A-Za-z0-9_\\-]+=[A-Za-z0-9_\\-]+(,[A-Za-z0-9_\\-]+=[A-Za-z0-9_\\-]+)*$"
                   }
                 ]              
               },
