@@ -1,0 +1,149 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "$id": "https://example.com/employee.schema.json",
+    "title": "Record of employee",
+    "description": "This document records the details of an employee",
+    "type": "object",
+    "properties": {
+      "PP": {
+        "type": "object",
+        "properties": {
+          "1": {
+            "type": "object",
+            "properties": {
+              "users": {
+                "description": "List of users",
+                "type": "array",
+                "maxItems": 20,
+                "uniqueItems": true,
+                "items":[
+                  {"type": "object"}
+                ]
+              }
+            },
+            "required": [
+             "users"
+            ]
+          }
+        }
+      },
+      "analysis process": {
+        "type": "object",
+        "properties": {
+          "1": {
+            "type": "object",
+            "properties": {
+              "params": {
+                "description": "Analysis parameters",
+                "type": "array",
+                "maxItems": 100,
+                "uniqueItems": false,
+                "items": [
+                  {
+                      "type": "string",
+                      "pattern":"^[\\w\\s-]+$"
+                  }
+                ]
+              },
+              "date": {
+                "description": "Date of analysis",
+                "type": "string",
+                "format": "date-time"
+              }
+            },
+            "required": [
+              "params",
+              "date"
+              ]
+          }
+        }
+      },
+      "report": {
+        "type": "object",
+        "properties": {
+          "1": {
+            "type": "object",
+            "properties": {
+              "data": {
+                "description": "Report data diagram",
+                "type": "array",
+                "maxItems": 100,
+                "uniqueItems": false,
+                "items": [
+                  {
+                    "type": "string",
+                    "pattern": "^[A-Za-z0-9_\\-]+=[A-Za-z0-9_\\-]+(,[A-Za-z0-9_\\-]+=[A-Za-z0-9_\\-]+)*$"
+                  }
+                ]              
+              },
+              "diagramparams": {
+                "description": "Parameters for diagrams",
+                "type": "array",
+                "maxItems": 20,
+                "uniqueItems": true,
+                "items": [
+                  {
+                    "type": "number"
+                  }
+                ]              
+              }
+            },
+            "required": [
+              "data",
+              "diagramparams"
+            ]
+          }
+        }
+      },
+      "support packet forming": {
+        "type": "object",
+        "properties": {
+          "1": {
+            "type": "object",
+            "properties": {
+              "params": {
+                "description": "Support packet forming parameters",
+                "type": "array",
+                "maxItems": 100,
+                "uniqueItems": false,
+                "items": [
+                  {
+                    "type": "string"
+                  }
+                ]
+              },
+              "date": {
+                "description": "Date of analysis",
+                "type": "string",
+                "format": "date-time"
+              }
+            },
+            "required": [
+              "params",
+              "date"
+            ]
+          }
+        }
+      },
+      "support packet": {
+        "type": "object",
+        "properties": {
+          "1": {
+            "type": "object",
+            "properties": {
+              "indtructions": {
+                "description": "Instructions for support packet",
+                "type": "string",
+                "maxLength": 10000
+              },
+              "documentlayout": {
+                "description": "Document layout details",
+                "type": "string",
+                "maxLength": 10000
+              }
+            }
+          }
+        }
+      }
+    }
+  }
