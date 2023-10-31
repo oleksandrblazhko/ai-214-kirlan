@@ -2,13 +2,13 @@
 title Activity Diagram 
 
 start
-:User enters login and password;
-:Program analyzes entered user data;
-if (Is data correct?) then (Yes)
-  :Correct;
+:The user clicks the "Start analysis" button;
+:Program analyzes workspace security measures;
+if (The analysis was successful?) then (Yes)
+  :Outputting information from the analysis;
 else (No)
-  :Error: Invalid data;
-  --> User enters login and password
+  :Error: Analysis error;
+  --> The user clicks the "Start analysis" button
 endif
 stop
 
