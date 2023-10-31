@@ -1,0 +1,35 @@
+@startjson
+
+title JSON Data
+{
+  "PP": {
+    "1": {
+      "users": "user1;user2;user3"
+    }
+  },
+  "analysis process": {
+    "1": {
+      "params": "args",
+      "date": "12.10.2023"
+    }
+  },
+  "report": {
+    "1": {
+      "data": "dict",
+      "diagramparams": "plot"
+    }
+  },
+  "support packet forming": {
+    "1": {
+      "params": "args",
+      "date": "12.10.2023"
+    }
+  },
+  "support packet": {
+    "1": {
+      "indtructions": "1. Відкрийте...",
+      "documentlayout": "fontsize..."
+    }
+  }
+}
+@endjson
