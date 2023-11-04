@@ -1,0 +1,24 @@
+@startuml
+
+hide circle
+title UML Concept Classes 
+
+Class PP {
+    user
+}
+
+Class SecurityReport {
+    data
+    chartparameters
+}
+
+Class SupportPackage {
+    inctruction
+    documentlayout
+}
+
+PP"1" --> "*"SecurityReport : provides
+
+PP"1" --> "*"SupportPackage : provides functionality
+
+@enduml

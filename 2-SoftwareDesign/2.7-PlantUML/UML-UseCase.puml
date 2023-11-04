@@ -1,0 +1,16 @@
+@startuml
+
+title Usecase Kirlan
+left to right direction
+actor :Instructor:
+
+rectangle Software {
+
+    usecase (Creation of safe conditions)
+    usecase (Formation of the support package)
+
+   :Instructor: -- (Creation of safe conditions)
+   (Creation of safe conditions) .> (Formation of the support package) : include
+}
+
+@enduml

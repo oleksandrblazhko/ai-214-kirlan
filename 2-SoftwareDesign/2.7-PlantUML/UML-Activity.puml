@@ -1,0 +1,15 @@
+@startuml
+title Activity Diagram 
+
+start
+:The user clicks the "Start analysis" button;
+:Program analyzes workspace security measures;
+if (The analysis was successful?) then (Yes)
+  :Outputting information from the analysis;
+else (No)
+  :Error: Analysis error;
+  --> The user clicks the "Start analysis" button
+endif
+stop
+
+@enduml
