@@ -1,1 +1,1 @@
-![img](https://www.planttext.com/api/plantuml/png/ZP0n2W9134NxdEANMkW1jX114CHIF42OpUuEpiuicGmMujrrH4GRDLN8_ta_P9sDrSeOYCnR41opECw2lTV0aO9q1ajGtm-6rgiuyoaIEqkAPXUpQQbzGrGrZlqTSaYTdLa55oBSgpoXiuqArtsa3faxWKknzNMIvv_ERTBnPRL1aCiq9JLCx4xSo_n1VZy0YyNlWAy6B5T_1AE1ZowKLkXAj9ROrlVT0000)
+![img](https://raw.githubusercontent.com/oleksandrblazhko/ai-214-kirlan/ai-214-kirlan_with_laboratory_work_7/2-SoftwareDesign/2.7-PlantUML/UML-UseCase.puml)
