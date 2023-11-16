@@ -41,7 +41,7 @@
                 "items": [
                   {
                       "type": "string",
-                      "pattern":"^[\\w\\s-]+$"
+                      "pattern":"^[\\w\\s-]+.{0,255}$"
                   }
                 ]
               },
